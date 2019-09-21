@@ -1,0 +1,165 @@
+/*Vidal Leoardo De Los Santo Rincon 2016-3762*/
+
+
+*{
+	padding:0%;
+	margin:0%;
+}
+
+
+header{
+	background:linear-gradient(45deg,#1649B6,#6D98F4);
+	height:60px;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header > h1 {
+	color:white;
+	font-family:calibri , arial;
+
+}
+
+h1 {
+	color:gray;
+	font-family:calibri , arial;
+
+}
+
+.flex-menu{
+	margin: 0  5% 0 0;
+	align-self: flex-end;
+}
+
+header  .lista-menu{
+	list-style: none;
+}
+
+header  .lista-menu > li{
+	display: inline-block;
+	
+}
+
+
+header  .lista-menu > li:hover{
+	background:skyblue;
+	
+}
+
+header .lista-menu > li > a{
+	color:white;
+	text-decoration: none;
+	font-family: calibri, arial;
+	font-size: 20px;
+	padding:15px;
+	
+}
+
+
+.flex-container{
+height:500px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+
+.container{
+	background:white;
+	width:550px;
+	height:350px;
+	border:0.5px solid rgba(0,0,0,0.1);
+	border-radius:2px;
+	box-shadow: 1px 1px 10px;
+}
+
+.all-content{
+
+	background:white;
+	height:620px;
+	margin:1% 0 0 0%; 
+	box-shadow: 1px 1px 10px;	
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+
+
+}
+.all-content > #btnRecargar{
+
+width:440px;
+height:35px;
+color:white;
+border:none;
+background: linear-gradient(45deg,#1649B6,#6D98F4);
+border-radius:30px;
+
+}
+
+
+.all-content > h4{
+font-weight: 100;
+font-size:30px;
+color:gray;
+font-family: calibri, arial;
+
+}
+
+.container2{
+	background:white;
+	width:90%;
+	height:440px;
+	overflow-y: scroll;
+	border:0.5px solid rgba(0,0,0,0.2);
+	border-radius:2px;
+	
+
+}
+
+.container2 > #info-contacts{
+
+font-family:calibri, arial;
+background: linear-gradient(45deg,#1649B6,#6D98F4);
+color:white;
+padding: 10px 10px;
+
+}
+
+form{
+
+background:white;
+margin:45px 50px;
+width:450px;
+position: absolute; 
+
+
+}
+
+.campo{
+
+width:450px;
+height:40px;
+border:0.5px solid rgba(0,0,0,0.1);
+margin: 6px 0px;
+border-radius:30px;
+text-align:center;
+font-size:15px;
+
+}
+
+.btn{
+
+width:440px;
+margin:20px 5px;
+height:35px;
+color:white;
+border:none;
+background: linear-gradient(45deg,#1649B6,#6D98F4);
+border-radius:30px;
+
+}
